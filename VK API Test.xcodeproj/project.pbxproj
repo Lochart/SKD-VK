@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9526B39F1C4D363E006A196A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9526B39E1C4D363E006A196A /* main.m */; };
+		9526B3A21C4D363E006A196A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9526B3A11C4D363E006A196A /* AppDelegate.m */; };
+		9526B3A51C4D363E006A196A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9526B3A41C4D363E006A196A /* ViewController.m */; };
+		9526B3A81C4D363E006A196A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9526B3A61C4D363E006A196A /* Main.storyboard */; };
+		9526B3AB1C4D363E006A196A /* VK_API_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9526B3A91C4D363E006A196A /* VK_API_Test.xcdatamodeld */; };
+		9526B3AD1C4D363E006A196A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9526B3AC1C4D363E006A196A /* Assets.xcassets */; };
+		9526B3B01C4D363E006A196A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9526B3AE1C4D363E006A196A /* LaunchScreen.storyboard */; };
+		9526B3BB1C4D363E006A196A /* VK_API_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9526B3BA1C4D363E006A196A /* VK_API_TestTests.m */; };
+		9526B3C61C4D363E006A196A /* VK_API_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9526B3C51C4D363E006A196A /* VK_API_TestUITests.m */; };
+		CD458EC147FC7E326F9C8B1F /* libPods-VK API Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 857EFAEBAD57A93C02D656DC /* libPods-VK API Test.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9526B3B71C4D363E006A196A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9526B3921C4D363E006A196A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9526B3991C4D363E006A196A;
+			remoteInfo = "VK API Test";
+		};
+		9526B3C21C4D363E006A196A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9526B3921C4D363E006A196A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9526B3991C4D363E006A196A;
+			remoteInfo = "VK API Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3456EF4171870B4C7FF051EF /* Pods-VK API Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK API Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-VK API Test/Pods-VK API Test.release.xcconfig"; sourceTree = "<group>"; };
+		5CE3986C21CB13445A559F44 /* Pods-VK API Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK API Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VK API Test/Pods-VK API Test.debug.xcconfig"; sourceTree = "<group>"; };
+		857EFAEBAD57A93C02D656DC /* libPods-VK API Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VK API Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9526B39A1C4D363E006A196A /* VK API Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK API Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9526B39E1C4D363E006A196A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9526B3A01C4D363E006A196A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9526B3A11C4D363E006A196A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9526B3A31C4D363E006A196A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9526B3A41C4D363E006A196A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9526B3A71C4D363E006A196A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9526B3AA1C4D363E006A196A /* VK_API_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VK_API_Test.xcdatamodel; sourceTree = "<group>"; };
+		9526B3AC1C4D363E006A196A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9526B3AF1C4D363E006A196A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9526B3B11C4D363E006A196A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9526B3B61C4D363E006A196A /* VK API TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK API TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9526B3BA1C4D363E006A196A /* VK_API_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VK_API_TestTests.m; sourceTree = "<group>"; };
+		9526B3BC1C4D363E006A196A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9526B3C11C4D363E006A196A /* VK API TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK API TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9526B3C51C4D363E006A196A /* VK_API_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VK_API_TestUITests.m; sourceTree = "<group>"; };
+		9526B3C71C4D363E006A196A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9526B3971C4D363E006A196A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD458EC147FC7E326F9C8B1F /* libPods-VK API Test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9526B3B31C4D363E006A196A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9526B3BE1C4D363E006A196A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AE852CFB819F323316C88B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CE3986C21CB13445A559F44 /* Pods-VK API Test.debug.xcconfig */,
+				3456EF4171870B4C7FF051EF /* Pods-VK API Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9526B3911C4D363E006A196A = {
+			isa = PBXGroup;
+			children = (
+				9526B39C1C4D363E006A196A /* VK API Test */,
+				9526B3B91C4D363E006A196A /* VK API TestTests */,
+				9526B3C41C4D363E006A196A /* VK API TestUITests */,
+				9526B39B1C4D363E006A196A /* Products */,
+				2AE852CFB819F323316C88B9 /* Pods */,
+				BE661C55CAC574DEA82E1F65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9526B39B1C4D363E006A196A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9526B39A1C4D363E006A196A /* VK API Test.app */,
+				9526B3B61C4D363E006A196A /* VK API TestTests.xctest */,
+				9526B3C11C4D363E006A196A /* VK API TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9526B39C1C4D363E006A196A /* VK API Test */ = {
+			isa = PBXGroup;
+			children = (
+				9526B3A01C4D363E006A196A /* AppDelegate.h */,
+				9526B3A11C4D363E006A196A /* AppDelegate.m */,
+				9526B3A31C4D363E006A196A /* ViewController.h */,
+				9526B3A41C4D363E006A196A /* ViewController.m */,
+				9526B3A61C4D363E006A196A /* Main.storyboard */,
+				9526B3AC1C4D363E006A196A /* Assets.xcassets */,
+				9526B3AE1C4D363E006A196A /* LaunchScreen.storyboard */,
+				9526B3B11C4D363E006A196A /* Info.plist */,
+				9526B3A91C4D363E006A196A /* VK_API_Test.xcdatamodeld */,
+				9526B39D1C4D363E006A196A /* Supporting Files */,
+			);
+			path = "VK API Test";
+			sourceTree = "<group>";
+		};
+		9526B39D1C4D363E006A196A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9526B39E1C4D363E006A196A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9526B3B91C4D363E006A196A /* VK API TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				9526B3BA1C4D363E006A196A /* VK_API_TestTests.m */,
+				9526B3BC1C4D363E006A196A /* Info.plist */,
+			);
+			path = "VK API TestTests";
+			sourceTree = "<group>";
+		};
+		9526B3C41C4D363E006A196A /* VK API TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9526B3C51C4D363E006A196A /* VK_API_TestUITests.m */,
+				9526B3C71C4D363E006A196A /* Info.plist */,
+			);
+			path = "VK API TestUITests";
+			sourceTree = "<group>";
+		};
+		BE661C55CAC574DEA82E1F65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				857EFAEBAD57A93C02D656DC /* libPods-VK API Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9526B3991C4D363E006A196A /* VK API Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9526B3CA1C4D363E006A196A /* Build configuration list for PBXNativeTarget "VK API Test" */;
+			buildPhases = (
+				0E68BFD558E167315A6DCFF7 /* Check Pods Manifest.lock */,
+				9526B3961C4D363E006A196A /* Sources */,
+				9526B3971C4D363E006A196A /* Frameworks */,
+				9526B3981C4D363E006A196A /* Resources */,
+				19ED500FCC6653F67F03FDBE /* Embed Pods Frameworks */,
+				C7D75CA596C45EAC1007726D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VK API Test";
+			productName = "VK API Test";
+			productReference = 9526B39A1C4D363E006A196A /* VK API Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9526B3B51C4D363E006A196A /* VK API TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9526B3CD1C4D363E006A196A /* Build configuration list for PBXNativeTarget "VK API TestTests" */;
+			buildPhases = (
+				9526B3B21C4D363E006A196A /* Sources */,
+				9526B3B31C4D363E006A196A /* Frameworks */,
+				9526B3B41C4D363E006A196A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9526B3B81C4D363E006A196A /* PBXTargetDependency */,
+			);
+			name = "VK API TestTests";
+			productName = "VK API TestTests";
+			productReference = 9526B3B61C4D363E006A196A /* VK API TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9526B3C01C4D363E006A196A /* VK API TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9526B3D01C4D363E006A196A /* Build configuration list for PBXNativeTarget "VK API TestUITests" */;
+			buildPhases = (
+				9526B3BD1C4D363E006A196A /* Sources */,
+				9526B3BE1C4D363E006A196A /* Frameworks */,
+				9526B3BF1C4D363E006A196A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9526B3C31C4D363E006A196A /* PBXTargetDependency */,
+			);
+			name = "VK API TestUITests";
+			productName = "VK API TestUITests";
+			productReference = 9526B3C11C4D363E006A196A /* VK API TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9526B3921C4D363E006A196A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Nikolay;
+				TargetAttributes = {
+					9526B3991C4D363E006A196A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9526B3B51C4D363E006A196A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9526B3991C4D363E006A196A;
+					};
+					9526B3C01C4D363E006A196A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9526B3991C4D363E006A196A;
+					};
+				};
+			};
+			buildConfigurationList = 9526B3951C4D363E006A196A /* Build configuration list for PBXProject "VK API Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9526B3911C4D363E006A196A;
+			productRefGroup = 9526B39B1C4D363E006A196A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9526B3991C4D363E006A196A /* VK API Test */,
+				9526B3B51C4D363E006A196A /* VK API TestTests */,
+				9526B3C01C4D363E006A196A /* VK API TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9526B3981C4D363E006A196A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9526B3B01C4D363E006A196A /* LaunchScreen.storyboard in Resources */,
+				9526B3AD1C4D363E006A196A /* Assets.xcassets in Resources */,
+				9526B3A81C4D363E006A196A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9526B3B41C4D363E006A196A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9526B3BF1C4D363E006A196A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E68BFD558E167315A6DCFF7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		19ED500FCC6653F67F03FDBE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VK API Test/Pods-VK API Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7D75CA596C45EAC1007726D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VK API Test/Pods-VK API Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9526B3961C4D363E006A196A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9526B3A51C4D363E006A196A /* ViewController.m in Sources */,
+				9526B3AB1C4D363E006A196A /* VK_API_Test.xcdatamodeld in Sources */,
+				9526B3A21C4D363E006A196A /* AppDelegate.m in Sources */,
+				9526B39F1C4D363E006A196A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9526B3B21C4D363E006A196A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9526B3BB1C4D363E006A196A /* VK_API_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9526B3BD1C4D363E006A196A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9526B3C61C4D363E006A196A /* VK_API_TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9526B3B81C4D363E006A196A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9526B3991C4D363E006A196A /* VK API Test */;
+			targetProxy = 9526B3B71C4D363E006A196A /* PBXContainerItemProxy */;
+		};
+		9526B3C31C4D363E006A196A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9526B3991C4D363E006A196A /* VK API Test */;
+			targetProxy = 9526B3C21C4D363E006A196A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9526B3A61C4D363E006A196A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9526B3A71C4D363E006A196A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9526B3AE1C4D363E006A196A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9526B3AF1C4D363E006A196A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9526B3C81C4D363E006A196A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9526B3C91C4D363E006A196A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9526B3CB1C4D363E006A196A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE3986C21CB13445A559F44 /* Pods-VK API Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VK API Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Umbrella.VK-API-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9526B3CC1C4D363E006A196A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3456EF4171870B4C7FF051EF /* Pods-VK API Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VK API Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Umbrella.VK-API-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9526B3CE1C4D363E006A196A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VK API TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Umbrella.VK-API-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VK API Test.app/VK API Test";
+			};
+			name = Debug;
+		};
+		9526B3CF1C4D363E006A196A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "VK API TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Umbrella.VK-API-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VK API Test.app/VK API Test";
+			};
+			name = Release;
+		};
+		9526B3D11C4D363E006A196A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VK API TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Umbrella.VK-API-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "VK API Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9526B3D21C4D363E006A196A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VK API TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Umbrella.VK-API-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "VK API Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9526B3951C4D363E006A196A /* Build configuration list for PBXProject "VK API Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9526B3C81C4D363E006A196A /* Debug */,
+				9526B3C91C4D363E006A196A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9526B3CA1C4D363E006A196A /* Build configuration list for PBXNativeTarget "VK API Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9526B3CB1C4D363E006A196A /* Debug */,
+				9526B3CC1C4D363E006A196A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9526B3CD1C4D363E006A196A /* Build configuration list for PBXNativeTarget "VK API TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9526B3CE1C4D363E006A196A /* Debug */,
+				9526B3CF1C4D363E006A196A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9526B3D01C4D363E006A196A /* Build configuration list for PBXNativeTarget "VK API TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9526B3D11C4D363E006A196A /* Debug */,
+				9526B3D21C4D363E006A196A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9526B3A91C4D363E006A196A /* VK_API_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9526B3AA1C4D363E006A196A /* VK_API_Test.xcdatamodel */,
+			);
+			currentVersion = 9526B3AA1C4D363E006A196A /* VK_API_Test.xcdatamodel */;
+			path = VK_API_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9526B3921C4D363E006A196A /* Project object */;
+}
